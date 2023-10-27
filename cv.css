@@ -1,0 +1,87 @@
+/* Reset some default styles */
+body, h1, h2, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+#name{
+    position: relative;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    left: 800px;
+    top: 400px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(89, 0, 255);
+}
+
+header {
+    background-color:white;
+    colour:red;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    background-color:blue;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 2px 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.channel-list, .pricing {
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    margin-bottom: 5px;
+}
+
+.div{
+    position: relative;
+    left: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+
+
